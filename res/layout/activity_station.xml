@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+    >
+    <TextView
+        android:id="@+id/ceduan_name"
+        android:layout_width="0dp"
+        android:layout_height="45sp"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:textSize="30sp"
+        android:text="自：  至： " />
+    
+    
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="35sp"
+        android:layout_weight="1"
+        android:text="编辑" />     
+</LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/pre_sta"
+            android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="前一站"
+            />
+        
+        <Button 
+            android:id="@+id/next_sta"
+     android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="后一站"
+            />
+        <TextView 
+            android:id="@+id/tv_sta_num"
+            android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="1/1"
+    android:layout_weight="2"
+            />
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    >
+    <TextView
+        
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="后上" />
+        <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="前上" />
+        
+         <TextView
+      
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="后中" />
+        
+          <TextView
+        
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="后辅" />
+        
+           <TextView
+      
+        android:layout_width="0dp"
+        android:layout_height="20sp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="#A0D9D9"
+        android:text="基/辅" />
+        
+           
+</LinearLayout>
+
+<LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+     <EditText 
+         android:id="@+id/backup"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+         />   
+      <EditText 
+       android:id="@+id/frontup"   
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+    android:layout_marginLeft="4dp"
+         />  
+         <EditText 
+             android:id="@+id/backmid"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+    android:layout_marginLeft="4dp"
+         />    
+         <EditText 
+             android:id="@+id/backred"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+    android:layout_marginLeft="4dp"
+         />  
+         <EditText
+             android:id="@+id/red_black_back" 
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="1"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />  
+ 
+    </LinearLayout>
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_marginTop="5dp"
+    >
+    <TextView
+        
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="后下" />
+        <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="前下" />
+        
+         <TextView
+      
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="前中" />
+        
+          <TextView
+        
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="前辅" />
+        
+           <TextView
+      
+        android:layout_width="0dp"
+        android:layout_height="20sp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="#A0D9D9"
+        android:text="基/辅" />
+        
+           
+</LinearLayout>
+<LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   
+        >
+     <EditText
+       
+         android:id="@+id/backdown" 
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+         />   
+      <EditText 
+          android:id="@+id/frontdown"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+    android:layout_marginLeft="4dp"
+         />  
+         <EditText 
+             android:id="@+id/frontmid"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+    android:layout_marginLeft="4dp"
+         />    
+         <EditText 
+             android:id="@+id/frontred"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp2"
+    android:layout_marginLeft="4dp"
+         />  
+         <EditText
+             android:id="@+id/red_black_front" 
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="1"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />  
+ 
+    </LinearLayout>
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_marginTop="10dp"
+    >
+    <TextView
+        
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="后距" />
+        <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="前距" />
+        
+          <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        />
+           <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+         />
+        
+
+           <TextView
+      
+        android:layout_width="0dp"
+        android:layout_height="20sp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="#A0D9D9"
+        android:text="∑" />
+        
+           
+</LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+        >
+     <EditText 
+         android:id="@+id/back_dist"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp"
+    
+         />   
+      <EditText 
+          android:id="@+id/front_dist"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />  
+         <EditText 
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="4"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />    
+           
+         <EditText 
+             android:id="@+id/red_sum"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="1"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />  
+ 
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_marginTop="5dp"
+    >
+    <TextView
+        
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="视距差" />
+        <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="∑视距差" />
+        
+          <TextView
+       
+        android:layout_width="0dp"
+        android:layout_height="30sp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:textColor="#C0D9D9"
+        android:text="高差"
+        />
+          
+        
+
+           <TextView
+      
+        android:layout_width="0dp"
+        android:layout_height="20sp"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:textColor="#A0D9D9"
+        android:text="∑高差" />
+        
+           
+</LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    
+        >
+     <EditText 
+         android:id="@+id/BFdist"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp"
+         />   
+      <EditText 
+          android:id="@+id/BFdistSum"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />  
+         <EditText 
+             android:id="@+id/hight"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="2"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />    
+         <EditText 
+             android:id="@+id/hight_sum"
+         android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_weight="3"
+    android:background="@drawable/editsharp"
+    android:layout_marginLeft="4dp"
+         />  
+     </LinearLayout>
+     <Button 
+         android:id="@+id/btn_observe"
+         android:layout_width="match_parent"
+          android:layout_height="45dp"
+  android:layout_marginTop="5dp"
+  android:background="@drawable/editsharp3"
+    android:layout_margin="5dp"
+         />
+          <Button 
+         android:id="@+id/btn_save_station"
+         android:layout_width="match_parent"
+          android:layout_height="45dp"
+  android:layout_marginTop="5dp"
+  android:background="@drawable/editsharp3"
+    android:layout_margin="5dp"
+    android:text="保存"         />
+      <TextView
+      android:id="@+id/tv_tishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="#A0D9D9"
+        android:text="提示：" />
+</LinearLayout>
